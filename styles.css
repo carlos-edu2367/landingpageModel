@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+}
+
+header{
+  background-color: blueviolet;
+  color: aliceblue;
+  width: 100vw;
+  height: 2.5vw;
+}
+header p{
+  text-align: center;
+  padding-top: 5px;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+}
+section{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  text-align: center;
+  background-color: black;
+  font-family: "Montserrat", serif;
+  font-weight: bolder;
+  color: aliceblue;
+  display: block;
+}
+section em{
+  color: blueviolet;
+}
+section video{
+  padding-top: 3vw;
+}
+button{
+  border: none;
+  background-color: blueviolet;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: aliceblue;
+  height: 4vw;
+  width: 12vw;
+  border-radius: 1vw;
+  margin-top: 5vh;
+}
+button:hover{
+  height: 4.5vw;
+  width: 12.5vw;
+  background-color: rgb(72, 25, 117);
+  font-size: 14px;
+  transition: 0.25s;
+  
+}
+h2{
+  font-family: "Montserrat", serif;
+  color: aliceblue;
+  font-weight: bolder;
+  margin-bottom: 5vh;
+}
+#Content{
+  background: radial-gradient(circle, #4c1861, #1a0725);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10vh;
+}
+#Content ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 7vw;
+}
+
+#Content li{
+  flex-direction: column;
+}
+#Content li img{
+  width: 15vw;
+  height: auto;
+}
